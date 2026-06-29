@@ -44,10 +44,10 @@
     import { GoogleGenerativeAI } from "@google/generative-ai";
 
     // Put your actual Gemini API Key here
-    const API_KEY = "YOUR_GEMINI_API_KEY_HERE"; 
+    const API_KEY = "AQ.Ab8RN6INTJ2-_n46Aurdx4qcHe3u6xiW8H-U8kIZKCzvmh00qQ"; 
     
     const genAI = new GoogleGenerativeAI(API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const chatBox = document.getElementById('chatBox');
     const userInput = document.getElementById('userInput');
